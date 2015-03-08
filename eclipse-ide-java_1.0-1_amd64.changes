@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 08 Mar 2015 22:31:52 +0100
+Source: eclipse-ide-java
+Binary: eclipse-ide-java
+Architecture: source amd64
+Version: 1.0-1
+Distribution: utopic
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ eclipse-ide-java - Eclipse IDE Java
+Changes:
+ eclipse-ide-java (1.0-1) utopic; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1:
+ f429a640d37a640947e35800850dfc3fca0539e6 866 eclipse-ide-java_1.0-1.dsc
+ f0725c3d7bebbbe747073fecbb21989af132ce7e 11118 eclipse-ide-java_1.0.orig.tar.gz
+ f9e83291db0334b6e9a3887988fd162515b4c054 5256 eclipse-ide-java_1.0-1.debian.tar.xz
+ e9436cc18cc7bccf2a13e15c8f39d44e6eb49d94 13976 eclipse-ide-java_1.0-1_amd64.deb
+Checksums-Sha256:
+ bd7a7dfd8703a45bcf374cff1f03c12c120a194ce9874ce17b2150e902ac2535 866 eclipse-ide-java_1.0-1.dsc
+ 4e94f2c75d642373c5c94d29feda26799497c59e1cc30ebbfc16eacdf5ab53ad 11118 eclipse-ide-java_1.0.orig.tar.gz
+ bc00c2b1f13016c954469c93484a6cf007ad91e81e61a3ada262ec5d7f535571 5256 eclipse-ide-java_1.0-1.debian.tar.xz
+ 8f52da3926675a31ce3c1598d99a08ffed35d0163af909992be5807cdfab306f 13976 eclipse-ide-java_1.0-1_amd64.deb
+Files:
+ a9e73c4b745a9d4e6a9328e52921be8e 13976 devel optional eclipse-ide-java_1.0-1_amd64.deb
+ a831cea18c59540a47bd39a03a312fa4 866 devel optional eclipse-ide-java_1.0-1.dsc
+ 04b1d007911e6639400d15d60b8706b2 11118 devel optional eclipse-ide-java_1.0.orig.tar.gz
+ 475a3162a5f69bd302d0c8465c60feb8 5256 devel optional eclipse-ide-java_1.0-1.debian.tar.xz

@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 08 Mar 2015 22:31:52 +0100
+Source: eclipse-ide-java
+Binary: eclipse-ide-java
+Architecture: source
+Version: 1.0-1
+Distribution: utopic
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ eclipse-ide-java - Eclipse IDE Java
+Changes:
+ eclipse-ide-java (1.0-1) utopic; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1:
+ e229f317658e4015ebd0c7fd90114e410a47ea1e 1387 eclipse-ide-java_1.0-1.dsc
+ f0725c3d7bebbbe747073fecbb21989af132ce7e 11118 eclipse-ide-java_1.0.orig.tar.gz
+ 3834350d982f71f36477b5abfe718d7adced14f2 5340 eclipse-ide-java_1.0-1.debian.tar.xz
+Checksums-Sha256:
+ 2a9f755a7d319cedaf9ea735a1de061ea9e0e0de89c8891704e4172120f34e22 1387 eclipse-ide-java_1.0-1.dsc
+ 4e94f2c75d642373c5c94d29feda26799497c59e1cc30ebbfc16eacdf5ab53ad 11118 eclipse-ide-java_1.0.orig.tar.gz
+ 17dfc685aa20970389517cc62e874e25545f7ef391ed38e50aaff0653fd5ea20 5340 eclipse-ide-java_1.0-1.debian.tar.xz
+Files:
+ c351350750eed22b0f72a20b574e4117 1387 devel optional eclipse-ide-java_1.0-1.dsc
+ 04b1d007911e6639400d15d60b8706b2 11118 devel optional eclipse-ide-java_1.0.orig.tar.gz
+ 7a13d03a362308aa424215fb5da073d0 5340 devel optional eclipse-ide-java_1.0-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJU/NquAAoJEGk4doX6K5n2MMwH/ibPCTMX1gV4h5M8/WI4ngNC
+XWEAfpIIIJAKFxTGEzIwBDuYzBs1w3RmMkh+WNcbMipMdyuV8G+hLkzZ1kka11Ex
+URtgB+MZlRSFIGNrFnzkG48YtBeUV/tDToNERWELTGQNpu98lM0Ljz/Rs+52pMgf
+o+QAOU5rzUi1E3kPQSlMRexHe4s+dzlYv9JpMvS1iBWqqXgFnyQC+bVIqAqh2a9I
+sbauYaqYcpnIlQJePrnwyiTlQ7pOqq2LNeh+nR4CL5YQ2jsS8NBmJPCiswwhrTn/
+6f4NleiPv0JuW77JycC8Z9gu518v55ygzZ2N96SFY4YEPkUkFG8xRD5g7Erp5ZY=
+=QYhz
+-----END PGP SIGNATURE-----

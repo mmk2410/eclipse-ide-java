@@ -1,0 +1,64 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package eclipse-ide-java
+dpkg-buildpackage: source version 1.0-1
+dpkg-buildpackage: source distribution utopic
+dpkg-buildpackage: source changed by Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+ dpkg-source --before-build eclipse-ide-java_1.0
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b eclipse-ide-java_1.0
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building eclipse-ide-java using existing ./eclipse-ide-java_1.0.orig.tar.gz
+dpkg-source: info: building eclipse-ide-java in eclipse-ide-java_1.0-1.debian.tar.xz
+dpkg-source: info: building eclipse-ide-java in eclipse-ide-java_1.0-1.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `eclipse-ide-java' in `../eclipse-ide-java_1.0-1_amd64.deb'.
+ dpkg-genchanges  >../eclipse-ide-java_1.0-1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build eclipse-ide-java_1.0
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+W: eclipse-ide-java source: maintainer-script-lacks-debhelper-token debian/postinst
+W: eclipse-ide-java source: maintainer-script-lacks-debhelper-token debian/postrm
+W: eclipse-ide-java source: maintainer-script-lacks-debhelper-token debian/preinst
+W: eclipse-ide-java source: package-needs-versioned-debhelper-build-depends 9
+W: eclipse-ide-java source: syntax-error-in-dep5-copyright line 18: Continuation line outside a paragraph (maybe line 17 should be " .").
+W: eclipse-ide-java: new-package-should-close-itp-bug
+E: eclipse-ide-java: copyright-file-contains-full-apache-2-license
+E: eclipse-ide-java: description-is-pkg-name Eclipse IDE Java
+W: eclipse-ide-java: script-with-language-extension usr/bin/eclipse-ide-java.sh
+W: eclipse-ide-java: binary-without-manpage usr/bin/eclipse-ide-java.sh
+W: eclipse-ide-java: desktop-command-not-in-package usr/share/applications/eclipse-ide-java.desktop eclipse-ide
+W: eclipse-ide-java: executable-not-elf-or-script usr/share/pixmaps/eclipse.xpm
+W: eclipse-ide-java: maintainer-script-ignores-errors preinst
+W: eclipse-ide-java: maintainer-script-ignores-errors postrm
+W: eclipse-ide-java: maintainer-script-ignores-errors postinst
+Finished running lintian.
