@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /opt/
+
+## Download Eclipse from the eclipse servers
+wget http://ftp.ussg.iu.edu/eclipse/technology/epp/downloads/release/mars/R/eclipse-java-mars-R-linux-gtk-x86_64.tar.gz

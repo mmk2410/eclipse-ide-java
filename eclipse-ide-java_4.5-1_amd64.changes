@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Tue, 15 Sep 2015 00:43:33 +0200
+Source: eclipse-ide-java
+Binary: eclipse-ide-java
+Architecture: source amd64
+Version: 4.5-1
+Distribution: vivid
+Urgency: low
+Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Changed-By: Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>
+Description:
+ eclipse-ide-java - Eclipse IDE Java
+Changes:
+ eclipse-ide-java (4.5-1) vivid; urgency=low
+ .
+   * New upstream version
+Checksums-Sha1:
+ 74e75e222aa4dc6dc89693ef8a4cf84405648ca1 866 eclipse-ide-java_4.5-1.dsc
+ f0725c3d7bebbbe747073fecbb21989af132ce7e 11118 eclipse-ide-java_4.5.orig.tar.gz
+ 0ccba706a8e15c5b35804dd7cadd3e3f5d4ea025 5364 eclipse-ide-java_4.5-1.debian.tar.xz
+ ece3bbe777829e6fe5eea4efbf4fb21ce9242e52 14178 eclipse-ide-java_4.5-1_amd64.deb
+Checksums-Sha256:
+ e2ee2fc291f40392666abc5c6b4a034000fb5631491de8e0712c5a8f520647d8 866 eclipse-ide-java_4.5-1.dsc
+ 4e94f2c75d642373c5c94d29feda26799497c59e1cc30ebbfc16eacdf5ab53ad 11118 eclipse-ide-java_4.5.orig.tar.gz
+ 8419dc563afb4c95436f705d4d5f0a3cc8f9bb8fb6d289c1e67251aade951aa9 5364 eclipse-ide-java_4.5-1.debian.tar.xz
+ a3278e184fd2e85e2eee00ec183860a4ca6f1a6650f85a344cdf3c39dd9e4949 14178 eclipse-ide-java_4.5-1_amd64.deb
+Files:
+ 998747e42873697d135f846284e727a2 866 devel optional eclipse-ide-java_4.5-1.dsc
+ 04b1d007911e6639400d15d60b8706b2 11118 devel optional eclipse-ide-java_4.5.orig.tar.gz
+ c338849832bf9de83e8778f422299a60 5364 devel optional eclipse-ide-java_4.5-1.debian.tar.xz
+ ea4cae775036a3dbc2a174d578e5f8db 14178 devel optional eclipse-ide-java_4.5-1_amd64.deb
