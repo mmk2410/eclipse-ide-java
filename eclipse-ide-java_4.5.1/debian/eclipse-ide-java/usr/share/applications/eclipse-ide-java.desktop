@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Eclipse IDE
-Comment=An IDE for Java, C/C++,...
-Exec=eclipse-ide %u
-Icon=eclipse
-Terminal=false
-Type=Application
-Categories=Development;IDE;Java;

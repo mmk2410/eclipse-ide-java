@@ -1,3 +1,9 @@
+eclipse-ide-java (4.5.2-1) wily; urgency=low
+
+  * New upstream version
+
+ -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Tue, 01 Mar 2016 19:44:33 +0200
+
 eclipse-ide-java (4.5.1-1) vivid; urgency=low
 
   * New upstream version
