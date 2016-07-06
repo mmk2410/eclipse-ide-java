@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /opt/
+
+## Extract the package
+sudo tar xf /opt/eclipse-java*
+
+## Rename the directory
+sudo mv /opt/eclipse /opt/eclipse-ide-java
+
+## Remove  the tar.gz package
+sudo rm /opt/eclipse-java*
+
+## Make /usr/bin usable
+sudo mv /usr/bin/eclipse-ide-java.sh /usr/bin/eclipse-ide
