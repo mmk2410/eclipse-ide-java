@@ -1,3 +1,9 @@
+eclipse-ide-java (4.6.0-1) wily; urgency=low
+
+  * New upstream version
+
+ -- Michele Bologna <michele.bologna@gmail.com> Wed, 06 Jul 2016 10:44:33 +0200
+
 eclipse-ide-java (4.5.2-1) wily; urgency=low
 
   * New upstream version
