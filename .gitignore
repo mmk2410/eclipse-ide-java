@@ -1,4 +1,10 @@
 *.deb
 *.changes
 *.build
-
+*.dsc
+*.upload
+*.debian.tar.xz
+*.log
+**/debian/eclipse-ide-java/*
+**/debian/files
+*.substvars
