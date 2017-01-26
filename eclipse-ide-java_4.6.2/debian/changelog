@@ -1,3 +1,9 @@
+eclipse-ide-java (4.6.2-1) yakkety; urgency=low
+
+  * New upstream version
+
+ -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz> Thu, 26 Jan 2017 13:32:33 +0200
+
 eclipse-ide-java (4.6.0-1) wily; urgency=low
 
   * New upstream version

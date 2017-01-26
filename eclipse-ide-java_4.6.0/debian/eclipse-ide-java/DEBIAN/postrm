@@ -1,6 +1,0 @@
-#!/bin/bash
-
-## Remove the program folder
-sudo rm -rf /opt/eclipse-ide-java
-
-sudo rm /usr/bin/eclipse-ide
