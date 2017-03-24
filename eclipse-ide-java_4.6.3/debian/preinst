@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /opt/
+
+## Download Eclipse from the eclipse servers
+wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
