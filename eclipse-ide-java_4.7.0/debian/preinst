@@ -1,5 +1,10 @@
 #!/bin/bash
+
+set -e
+
 cd /opt/
 
 ## Download Eclipse from the eclipse servers
 wget http://artfiles.org/eclipse.org//technology/epp/downloads/release/oxygen/R/eclipse-java-oxygen-R-linux-gtk-x86_64.tar.gz
+
+##DEBHELPER##

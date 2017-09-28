@@ -1,13 +1,13 @@
 Source: eclipse-ide-java
 Section: devel
 Priority: optional
-Maintainer: Marcel Michael Kapfer <marcelmichaelkapfer@yahoo.co.nz>
+Maintainer: Marcel Kapfer <opensource@mmk2410.org>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.5
+Standards-Version: 4.1.0
 
 
 Package: eclipse-ide-java
 Architecture: amd64
 Depends: ${misc:Depends}, default-jdk | oracle-java7-installer | oracle-java8-installer
-Description: Eclipse IDE Java
- A IDE for Java and C/C++, PHP as well
+Description: Eclipse IDE for Java Developers
+ The Eclipse IDE with packages for Java developers

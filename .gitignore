@@ -8,3 +8,5 @@
 **/debian/eclipse-ide-java/*
 **/debian/files
 *.substvars
+*.buildinfo
+**/debian/.debhelper/
