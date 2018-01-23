@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+cd /opt/
+
+## Download Eclipse from the eclipse servers
+wget -c https://ftp.fau.de/eclipse/technology/epp/downloads/release/oxygen/2/eclipse-java-oxygen-2-linux-gtk-x86_64.tar.gz
+
+##DEBHELPER##

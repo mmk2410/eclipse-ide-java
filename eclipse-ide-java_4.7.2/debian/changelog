@@ -1,27 +1,39 @@
+eclipse-ide-java (4.7.2-2) artful; urgency=low
+
+  * Fixed upstream URL
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Tue, 23 Jan 2018 09:37:49 +0100
+
+eclipse-ide-java (4.7.2-1) artful; urgency=low
+
+  * New upstream version
+
+ -- Marcel Kapfer <opensource@mmk2410.org>  Sun, 21 Jan 2018 09:38:28 +0100
+
 eclipse-ide-java (4.7.1-1) artful; urgency=low
 
   * New upstream version
   * Fixed many lintian warnings
 
- -- Marcel Kapfer (mmk2410) <opensource@mmk2410.org>  Thu, 28 Sep 2017 12:04:34 +0100
+ -- Marcel Kapfer <opensource@mmk2410.org>  Thu, 28 Sep 2017 12:04:34 +0100
 
 eclipse-ide-java (4.7.0-1) zesty; urgency=low
 
   * New upstream version
 
- -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>  Wed, 12 Jul 2017 18:29:34 +0100
+ -- Marcel Kapfer <marcelmichaelkapfer@gmail.com>  Wed, 12 Jul 2017 18:29:34 +0100
 
 eclipse-ide-java (4.6.3-1) yakkety; urgency=low
 
   * New upstream version
 
- -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@gmail.com>  Fri, 24 Mar 2017 15:47:33 +0100
+ -- Marcel Kapfer <marcelmichaelkapfer@gmail.com>  Fri, 24 Mar 2017 15:47:33 +0100
 
 eclipse-ide-java (4.6.2-1) yakkety; urgency=low
 
   * New upstream version
 
- -- Marcel Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>  Thu, 26 Jan 2017 13:32:33 +0200
+ -- Marcel Kapfer <marcelmichaelkapfer@yahoo.co.nz>  Thu, 26 Jan 2017 13:32:33 +0200
 
 eclipse-ide-java (4.6.0-1) wily; urgency=low
 
@@ -33,7 +45,7 @@ eclipse-ide-java (4.5.2-1) wily; urgency=low
 
   * New upstream version
 
- -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>  Tue, 01 Mar 2016 19:44:33 +0200
+ -- Marcel Kapfer <marcelmichaelkapfer@yahoo.co.nz>  Tue, 01 Mar 2016 19:44:33 +0200
 
 eclipse-ide-java (4.5.1-1) vivid; urgency=low
 
@@ -45,7 +57,7 @@ eclipse-ide-java (4.5-1) vivid; urgency=low
 
   * New upstream version
 
- -- Marcel Michael Kapfer (mmk2410) <marcelmichaelkapfer@yahoo.co.nz>  Tue, 15 Sep 2015 00:43:33 +0200
+ -- Marcel Kapfer <marcelmichaelkapfer@yahoo.co.nz>  Tue, 15 Sep 2015 00:43:33 +0200
 
 eclipse-ide-java (1.0-1) utopic; urgency=low
 
